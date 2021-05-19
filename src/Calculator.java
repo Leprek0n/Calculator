@@ -55,7 +55,10 @@ class Calculate {
                         System.out.println(translate.translateNumber(num1 + num2));
                         break;
                     case "-":
-                        System.out.println(translate.translateNumber(num1 - num2));
+                        if(num1 < num2)
+                        System.out.println("-" + translate.translateNumber(Math.abs(num1 - num2)));
+                        else
+                            System.out.println( translate.translateNumber(num1 - num2));
                         break;
                     case "*":
                         System.out.println(translate.translateNumber(num1 * num2));
