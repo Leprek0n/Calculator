@@ -43,7 +43,6 @@ class Calculate {
                         System.out.println(multiply(num1, num2));
                         break;
                     case "/":
-                        
                             System.out.println(divide(num1, num2));
                         break;
                 }
@@ -63,8 +62,7 @@ class Calculate {
                     case "*":
                         System.out.println(translate.translateNumber(num1 * num2));
                         break;
-                    case "/":
-                        
+                    case "/":                        
                             System.out.println(translate.translateNumber(num1 / num2));
                         break;
                 }
